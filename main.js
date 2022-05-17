@@ -8,7 +8,7 @@ createCanvas(600,600);
 }
 
 var SpeechRecognition = window.webkitSpeechRecognition;
-var Recognition = new SpeechRecognition();
+var recognition = new SpeechRecognition();
 
 function start(){
     recognition.start();
